@@ -46,10 +46,8 @@ if __name__ == "__main__":
         print("")
         
         if option == "1":
-            klib.displayBook()
-            
+            klib.displayBook()  
         if option == "2":
-            
             klib.borrowBook(krishna.borrowBook())
         if option == "3":
             klib.returnBook(krishna.returnBook())
